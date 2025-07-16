@@ -1,0 +1,327 @@
+.solva {
+   font-size: 50px;
+   text-align: center;
+   font-family: italic;
+   font-family: "Arial", sans-serif
+}
+
+
+.lviv {
+   font-size: 70px;
+   text-align: center;
+   font-family: Georgia, serif;
+}
+
+
+body {
+
+   padding: 30px;
+   background: url("../img1/granz-cernyi-beton-teksturirovannyi-fon.jpg") 50% fixed
+}
+
+
+.block1 {
+
+   margin-left: auto;
+   margin-right: auto;
+   background-position: center;
+   background: url('../img1/СОЛЬВА\ ЛЬВІВ.jpg') 0 0/cover no-repeat;
+   border: 2px rgb(255, 192, 203);
+   height: 700px;
+   width: 700px;
+   border-radius: 40px;
+   box-shadow: 0 0 10px #000000;
+   font-size: 25px;
+   color: #8000ff;
+   background-color: aliceblue;
+}
+
+
+.linkinst {
+   font-size: 50px;
+   text-align: center;
+   font-family: Georgia, serif;
+}
+
+
+
+
+.story {
+   font-size: 50px;
+   text-align: center;
+   font-family: Georgia, serif;
+
+}
+
+
+.dv {
+   margin-left: 70px;
+}
+
+.david {
+
+   background: url('../img1/Давід.jpg')0 0/cover no-repeat;
+   margin-top: 70px;
+   margin-left: 40px;
+   margin-right: auto;
+   border: 2px rgb(40, 6, 12);
+   height: 700px;
+   width: 600px;
+   border-radius: 40px;
+   box-shadow: 0 0 10px #000000;
+   font-size: 25px;
+   background-color: aliceblue;
+   position: absolute;
+
+
+}
+
+
+.button {
+   color: aqua;
+   font-size: 30px;
+
+}
+
+.vovainst {
+   font-size: 50px;
+   font-family: Georgia, serif;
+
+
+
+}
+
+
+
+.vova {
+   background: url('../img1/📷⛰️.jpg')0 0/cover no-repeat;
+   margin-top: 15px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 2px rgb(40, 6, 12);
+   height: 700px;
+   width: 600px;
+   border-radius: 40px;
+   box-shadow: 0 0 10px #000000;
+   font-size: 25px;
+   background-color: aliceblue;
+   float: right;
+
+
+}
+
+.link {
+   margin-left: 850px;
+   margin-top: -30px;
+}
+
+
+.newpage {
+   margin-top: 750px;
+   font-size: 50px;
+   transform: translateY(-90px);
+   margin-left: 110px;
+   background-color: #d15cbe;
+   /* Зеленый */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   border-radius: 50px;
+   transition: background-color 0.3s ease;
+
+
+   overflow: hidden;
+   -webkit-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+
+}
+
+
+
+.newpage:before {
+   content: "";
+   background-color: rgba(255, 255, 255, 0.5);
+   height: 100%;
+   width: 3em;
+   display: block;
+   position: absolute;
+   opacity: 1;
+   top: 0;
+   left: -4.5em;
+   -webkit-transform: skewX(-45deg) translateX(0);
+   transform: skewX(-45deg) translateX(0);
+   -webkit-transition: none;
+   transition: none;
+   -webkit-animation: moving 3s ease-in-out infinite;
+   -moz-animation: moving 3s ease-in-out infinite;
+   -ms-animation: moving 3s ease-in-out infinite;
+   -o-animation: moving 3s ease-in-out infinite;
+   -animation: moving 3s ease-in-out infinite;
+}
+
+@keyframes moving {
+   30% {
+      webkit-transform: skewX(-45deg) translateX(33.5em);
+      transform: skewX(-45deg) translateX(33.5em);
+   }
+
+   100% {
+      webkit-transform: skewX(-45deg) translateX(33.5em);
+      transform: skewX(-45deg) translateX(33.5em);
+   }
+}
+
+
+.body {
+   padding: 30px;
+}
+
+.block2 {
+   background: url("../img1/ChatGPT\ Image\ 16\ июл.\ 2025\ г.\,\ 18_06_48.png") 0 0/100% auto no-repeat;
+   height: 400px;
+   border-radius: 40px;
+   box-shadow: 0 0 10px #000000;
+   margin-top: 40px;
+   /* шлях до фото */
+   background-size: cover;
+   /* фото розтягується */
+   /* вирівнюється по центру */
+   color: white;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.BT {
+   background-color: #d070bd;
+   /* зеленый */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 40px;
+   -webkit-transition-duration: 0.4s;
+   /* Safari */
+   transition-duration: 0.4s;
+   color: white;
+   position: fixed;
+   top: 0;
+   left: 0;
+   margin: 10px;
+   margin-left: 35px;
+}
+
+
+body.pg2 {
+   background: url("../img1/detailed_hand_painted_pink_watercolour_background_0509.jpg");
+}
+
+
+.st {
+   font-size: 50px;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.std {
+   font-size: 25px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.runok {
+   font-size: 25px;
+   font-family: 'Roboto', sans-serif;
+
+}
+
+
+.foto {
+   background: url("../img1/дава\ з\ носками.jpg")center/cover no-repeat;
+   height: 400px;
+   width: 500px;
+   border-radius: 40px;
+   box-shadow: 0 0 10px #000000;
+   margin-top: -530px;
+}
+
+.bik {
+   font-size: 25px;
+   font-family: 'Roboto', sans-serif;
+   margin-left: 520px;
+   margin-right: auto;
+   margin-top: 30px;
+}
+
+.cc {
+   color: red;
+}
+
+
+
+.BT {
+
+   overflow: hidden;
+   -webkit-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+}
+
+.BT:before {
+   content: "";
+   background-color: rgba(255, 255, 255, 0.5);
+   height: 100%;
+   width: 3em;
+   display: block;
+   position: absolute;
+   opacity: 1;
+   top: 0;
+   left: -4.5em;
+   -webkit-transform: skewX(-45deg) translateX(0);
+   transform: skewX(-45deg) translateX(0);
+   -webkit-transition: none;
+   transition: none;
+   -webkit-animation: moving 3s ease-in-out infinite;
+   -moz-animation: moving 3s ease-in-out infinite;
+   -ms-animation: moving 3s ease-in-out infinite;
+   -o-animation: moving 3s ease-in-out infinite;
+   -animation: moving 3s ease-in-out infinite;
+}
+
+@keyframes moving {
+   30% {
+      webkit-transform: skewX(-45deg) translateX(33.5em);
+      transform: skewX(-45deg) translateX(33.5em);
+   }
+
+   100% {
+      webkit-transform: skewX(-45deg) translateX(33.5em);
+      transform: skewX(-45deg) translateX(33.5em);
+   }
+}
+
+
+.sta {
+   padding: 20px;
+   font-size: 50px;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+.zbirna {
+   background: url("../img1/давів\ збрна.jpg")center/cover no-repeat;
+   height: 600px;
+   width: 500px;
+   border-radius: 40px;
+   box-shadow: 0 0 10px #000000;
+   margin-top: 100px;
+
+}
