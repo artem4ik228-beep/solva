@@ -117,10 +117,11 @@ body {
 
 
 .newpage {
+   position: absolute;
    margin-top: 750px;
    font-size: 50px;
    transform: translateY(-90px);
-   margin-left: 110px;
+   margin-left: 60px;
    background-color: #d15cbe;
    /* Зеленый */
    border: none;
@@ -268,7 +269,7 @@ body.pg2 {
 
 
 .BT {
-
+   font-size: 20px;
    overflow: hidden;
    -webkit-transform: translate3d(0, 0, 0);
    transform: translate3d(0, 0, 0);
@@ -324,4 +325,206 @@ body.pg2 {
    box-shadow: 0 0 10px #000000;
    margin-top: 100px;
 
+}
+
+
+.zbr {
+   font-size: 25px;
+   font-family: 'Roboto', sans-serif;
+   margin-left: 520px;
+   margin-right: auto;
+   margin-top: -600px;
+
+}
+
+
+.vovapg {
+   margin-left: 500px;
+   margin-top: 55px;
+   font-size: 50px;
+   transform: translateY(-90px);
+   margin-left: 930px;
+   background-color: #ea8d02;
+   /* Зеленый */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   border-radius: 50px;
+   transition: background-color 0.3s ease;
+
+
+   overflow: hidden;
+   -webkit-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+}
+
+
+.vovapg:before {
+
+   content: "";
+   background-color: rgba(255, 255, 255, 0.5);
+   height: 100%;
+   width: 3em;
+   display: block;
+   position: absolute;
+   display: inline-block;
+   opacity: 1;
+   top: 0;
+   left: -4.5em;
+   -webkit-transform: skewX(-45deg) translateX(0);
+   transform: skewX(-45deg) translateX(0);
+   -webkit-transition: none;
+   transition: none;
+   -webkit-animation: moving 3s ease-in-out infinite;
+   -moz-animation: moving 3s ease-in-out infinite;
+   -ms-animation: moving 3s ease-in-out infinite;
+   -o-animation: moving 3s ease-in-out infinite;
+   -animation: moving 3s ease-in-out infinite;
+}
+
+@keyframes moving {
+   30% {
+      webkit-transform: skewX(-45deg) translateX(33.5em);
+      transform: skewX(-45deg) translateX(33.5em);
+   }
+
+   100% {
+      webkit-transform: skewX(-45deg) translateX(33.5em);
+      transform: skewX(-45deg) translateX(33.5em);
+   }
+}
+
+
+body.vovkapage {
+   background: url("../img1/фон\ моркви.jpg") fixed;
+}
+
+
+.back {
+   font-size: 20px;
+   overflow: hidden;
+   -webkit-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+}
+
+.vovapage {
+   font-size: 30px;
+}
+
+.back {
+
+   background-color: #ea8d02;
+   /* зеленый */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 40px;
+   -webkit-transition-duration: 0.4s;
+   /* Safari */
+   transition-duration: 0.4s;
+   color: white;
+   position: fixed;
+   top: 0;
+   left: 0;
+   margin: 10px;
+   margin-left: 35px;
+}
+
+
+.back:before {
+   content: "";
+   background-color: rgba(255, 255, 255, 0.5);
+   height: 100%;
+   width: 3em;
+   display: block;
+   position: absolute;
+   opacity: 1;
+   top: 0;
+   left: -4.5em;
+   -webkit-transform: skewX(-45deg) translateX(0);
+   transform: skewX(-45deg) translateX(0);
+   -webkit-transition: none;
+   transition: none;
+   -webkit-animation: moving 3s ease-in-out infinite;
+   -moz-animation: moving 3s ease-in-out infinite;
+   -ms-animation: moving 3s ease-in-out infinite;
+   -o-animation: moving 3s ease-in-out infinite;
+   -animation: moving 3s ease-in-out infinite;
+}
+
+@keyframes moving {
+   30% {
+      webkit-transform: skewX(-45deg) translateX(33.5em);
+      transform: skewX(-45deg) translateX(33.5em);
+   }
+
+   100% {
+      webkit-transform: skewX(-45deg) translateX(33.5em);
+      transform: skewX(-45deg) translateX(33.5em);
+   }
+}
+
+
+.vvp {
+   margin-top: 30px;
+   background: url("../img1/ChatGPT\ Image\ 17\ июл.\ 2025\ г.\,\ 01_52_00.png")0 0/cover no-repeat;
+   height: 400px;
+   box-shadow: 0 0 10px;
+   border-radius: 45px;
+}
+
+.stv {
+   font-size: 50px;
+   font-family: 'Pacifico', cursive;
+   text-align: center;
+   margin-top: 30PX;
+}
+
+.fotov {
+   background: url("../img1/🎭.jpg") center;
+   height: 600px;
+   width: 500px;
+   border-radius: 40px;
+   box-shadow: 0 0 10px #000000;
+   margin-top: 30px;
+}
+
+.storyvova {
+   font-size: 30px;
+   margin-left: 550px;
+   margin-top: -630px;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.stvf {
+
+   font-size: 50px;
+   font-family: 'Pacifico', cursive;
+   text-align: center;
+   margin-top: 100PX;
+}
+
+
+.flvova {
+   background: url("../img1/Team\ Ukraine\ 🇺🇦🥅.webp")0 0/ 100% no-repeat;
+   height: 600px;
+   width: 500px;
+   border-radius: 40px;
+   box-shadow: 0 0 10px #000000;
+   margin-top: 40px;
+}
+
+.flvovastory {
+   font-size: 30px;
+   margin-left: 550px;
+   margin-top: -630px;
+   font-family: 'Roboto Condensed', sans-serif;
 }
